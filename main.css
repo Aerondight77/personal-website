@@ -1,0 +1,16 @@
+#navbar {
+    background-color:  #707b7c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    padding: 25px;
+}
+
+.nav-buttons a {
+    color: white;
+    font-size: 25px;
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
