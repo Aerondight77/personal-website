@@ -14,3 +14,16 @@
     text-decoration: none;
     font-weight: bold;
 }
+
+
+body {
+    background: #424242;
+}
+
+#text {
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    padding: 25px;
+}

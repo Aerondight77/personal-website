@@ -1,0 +1,6 @@
+On terminal starting at \personal-website\:
+
+cd client
+npm start
+
+To see the website look.
