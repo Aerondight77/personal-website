@@ -4,7 +4,7 @@ import "./style.css";
 const Resume = () => {
     return (
         <div className="body">
-            <h1>Bailey Ho</h1>
+            <h1>Resume</h1>
         </div>
     );
 };
