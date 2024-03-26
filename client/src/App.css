@@ -10,3 +10,12 @@
 body {
     background: #404040;
 }
+
+.links {
+    color:#7bf4ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    text-decoration: underline;
+}

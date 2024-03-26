@@ -1,6 +1,13 @@
+npx create-react-app client --template empty
+
+On terminal to install:
+
+npm install
+
 On terminal starting at \personal-website\:
 
 cd client
+(first time only) npm install react-router-dom
 npm start
 
 To see the website look.
