@@ -17,6 +17,7 @@ const Home = () => {
                     <a href="https://linkedin.com/in/bailey-ho-22b8041bb/" target="_blank" rel="noreferrer" className="links">LinkedIn</a>
                 </div>
             </div>
+
             <div className="body">
                 <h1>About Me</h1>
                 <p className="body-text">Hello! My name is Bailey, I am 24 years old, and I graduated from the University of California, San Diego, with a Bachelor's degree in Mathematics - Computer Science. I am from Garden Grove in Orange County, California.
@@ -27,6 +28,7 @@ const Home = () => {
                 In addition to technology, I love cars, or really, anything with rubber wheels (motorcycles, bicycles, RC cars, and even airplanes since they have rubber wheels as well). My dream car is a Porsche 911 GT3 (either manual or auto).
                 </p>
             </div>
+            
             <div className="body">
                 <h1>Contact Me</h1>
                 <p className="body-text">Email: <a href="mailto:bhwork@tutamail.com" className="email-link">bhwork@tutamail.com</a></p>
