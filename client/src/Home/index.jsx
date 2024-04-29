@@ -32,7 +32,7 @@ const Home = () => {
             <div className="body">
                 <h1>Contact Me</h1>
                 <p className="body-text">Email: <a href="mailto:bhwork@tutamail.com" className="email-link">bhwork@tutamail.com</a></p>
-                <p className="body-text">Phone number: Since I get a lot of scam and spam calls, I may not answer calls from unknown numbers. Therefore, it is better to email me instead. Thank you for your understanding.</p>
+                <p className="body-text">Phone number: Since I get a lot of scam and spam calls, I may not answer calls from unknown numbers. Therefore, it is better to email me instead to set up a phone call. Thank you for your understanding.</p>
             </div>
         </div>
     );
