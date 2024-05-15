@@ -1,14 +1,16 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
         <div className="navbar">
             <nav className="navlinks">
-                <a href="/personal-website">Home</a>
-                <a href="/resume">Resume</a>
-                <a href="/projects">Projects</a>
+                <Link to="/">Home</Link>
+                <Link to="/resume">Resume</Link>
+                <Link to="/projects">Projects</Link>
             </nav>
+            
         </div>
     );
 };
