@@ -15,6 +15,7 @@ const Home = () => {
                 <div className="links">
                     <a href="https://github.com/Aerondight77" target="_blank" rel="noreferrer" className="links">GitHub</a>
                     <a href="https://linkedin.com/in/bailey-ho-22b8041bb/" target="_blank" rel="noreferrer" className="links">LinkedIn</a>
+                    <a href="https://github.com/Aerondight77/personal-website" target="_blank" rel="noreferrer" className="links">Source Code</a>
                 </div>
             </div>
 

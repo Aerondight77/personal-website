@@ -11,3 +11,7 @@ cd client
 npm start
 
 To see the website look.
+
+On terminal to deploy changes to GitHub pages:
+
+npm run deploy

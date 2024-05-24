@@ -7,7 +7,7 @@ const Resume = () => {
         <div className="home-container">
             <div className="body">
                 <h1>Resume</h1>
-                <h2>If you prefer a shorter, downloadable version of my resume, click <a href="https://drive.filen.io/d/d502a9c7-83c0-4305-b8ea-9d3253306286#zEn1mTj4jg3GoaFTwld2ADzucT66pUXT" target="_blank" rel="noreferrer" className="links">here.</a></h2>
+                <h2>If you prefer a shorter, downloadable version of my resume, click <a href="https://drive.filen.io/d/c69b8e4f-1c41-44d6-afa4-a0b6f2d1e8ff#Rl1cLquZiGfAG9zLxODcTUPE7MVbHxaZ" target="_blank" rel="noreferrer" className="links">here.</a></h2>
             </div>
             
             <div className="body">
@@ -87,9 +87,10 @@ const Resume = () => {
                     <li>C#</li>
                     <li>Java</li>
                     <li>JavaScript</li>
+                    <li>Python</li>
                     <li>HTML</li>
-                    <li>React</li>
                     <li>CSS</li>
+                    <li>SQL</li>
                     <li>Markdown</li>
                     <li>Bash Scripts</li>
                     <li>LaTeX</li>
@@ -99,7 +100,7 @@ const Resume = () => {
 
                 <h3>Certificates:</h3>
                 <ul className="lists">
-                    <li>C++ Certification</li>
+                    <li>C++ Certificate</li>
                     <li>Orange Coast College Computer Science Certificate of Achievement</li>
                     <li>Completion of the NASA - California Space Grant Consortium Internship Certificate</li>
                     <li>CompTIA IT Fundamentals Certificate</li>
@@ -109,9 +110,11 @@ const Resume = () => {
                 <ul className="lists">
                     <li>Visual Studio Code</li>
                     <li>Node.js</li>
+                    <li>React</li>
                     <li>GitHub and Git</li>
-                    <li>Visual Studio Community and Code</li>
+                    <li>Android Studio</li>
                     <li>Unity</li>
+                    <li>Visual Studio Community & Code</li>
                     <li>Arduino</li>
                     <li>MongoDB</li>
                     <li>Trello</li>
