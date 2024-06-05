@@ -36,3 +36,17 @@
     justify-content: left;
     align-items: left;
 }
+
+@media (max-width: 600px) {
+    .home-container {
+      padding: 10px;
+    }
+  
+    .body {
+      padding: 20px;
+    }
+  
+    .responsive-image {
+      max-width: 100%;
+    }
+  }

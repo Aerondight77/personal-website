@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div className="home-container">
             <div className="body">
-                <img style={{ width: 400, height: 300}} src={portrait} alt=""/>
+                <img style={{ width: 400, height: 300}} src={portrait} alt="" class="responsive-image"/>
                 <h1>Bailey Ho</h1>
                 <h2>Welcome to my website!</h2>
                 <p className="body-text">You can view my resume and explore projects that I've worked on here. To get started, please click on one of the pages on the navigation bar. To view external links:
