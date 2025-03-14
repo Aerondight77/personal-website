@@ -21,11 +21,11 @@ const Home = () => {
 
             <div className="body">
                 <h1>About Me</h1>
-                <p className="body-text">Hello! My name is Bailey, I am 24 years old, and I graduated from the University of California, San Diego, with a Bachelor's degree in Mathematics - Computer Science. I am from Garden Grove in Orange County, California.
-                Some languages I know includes: C++, C, C#, Java, Python, JavaScript, HTML, CSS, and React in no particular order. Some tools I know to use includes: VSCode, GitHub, Unity, and Arduino in no particular order.
-                I love computers and technology in general; smartphones, desktop PCs, laptops, keyboards, or any smart devices, which is why I decided to learn about and pursue a career that is related to technology like software development or IT.
-                You can find more details of my professional life in the resume page.</p>
-                <p className="body-text">As for my personal life, in my pastime I like playing video games (both single player and multiplayer games), watch movies, TV shows, anime, and occassionally read a manga, ride a bicycle, play with Lego, and do some photography.
+                <p className="body-text">Hello! My name is Bailey, I am 24 years old, and I graduated from the University of California, San Diego, with a <b>Bachelor's degree in Mathematics - Computer Science</b>. I am from Garden Grove in Orange County, California.
+                Some languages I know include: <b>C++, C, C#, Java, Python, JavaScript, HTML, CSS, and React</b> in no particular order. Some tools I know to use include: <b>VSCode, GitHub (& Git), Unity, and Arduino</b>.
+                I love computers and technology in general; smartphones, desktop PCs, laptops, cameras, or any smart devices, which is why I decided to learn about and pursue a career that is related to technology like <b>software development, cybersecurity, or IT</b>.
+                You can find more details of my professional life in the resume page above.</p>
+                <p className="body-text">As for my personal life, my hobbies include playing video games (both single player and multiplayer games), photography, watch movies, TV shows, anime, and occassionally read a manga, ride a bicycle, or build LEGO.
                 In addition to technology, I love cars, or really, anything with rubber wheels (motorcycles, bicycles, RC cars, and even airplanes since they have rubber wheels as well). My dream car is a Porsche 911 GT3 (either manual or auto).
                 </p>
             </div>
