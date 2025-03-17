@@ -62,8 +62,10 @@ const Resume = () => {
                     <li>Promoted from Front-End Services TA (part-time) to PVA (full-time)</li>
                     <li>Assisted customers with financial services such as money orders, sending money, paying bills, etc, as well as checking out customer's items (cashier).</li>
                     <li>Managed vault contents (adding checks, deposit and withdrawal, etc.)</li>
-                    <li>Monitored the self-checkout and checked receipts to prevent the loss of assets.</li>
-                    <li>Assisted customers with items in the lockups.</li>
+                    <li>Assisted customers with lockup items.</li>
+                    <li>Verified prices on the salesfloor to see if price changes were done correctly.</li>
+                    <li>Verified and cleaned up the features to ensure more sales.</li>
+                    <li>Recovered money for the store by looking for missing deliveries.</li>
                 </ul>
 
                 <p className="body-text">RL Refurbished Inc.</p>
