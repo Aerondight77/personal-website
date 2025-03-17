@@ -55,13 +55,13 @@ const Resume = () => {
                 </ul>
 
                 <p className="body-text">Walmart</p>
-                <p className="body-text">Front-End Services TA</p>
+                <p className="body-text">Price Verifier Associate (PVA)</p>
                 <p className="body-text">Stanton, California</p>
                 <p className="body-text">October 2023 - Present</p>
                 <ul className="lists">
-                    <li>Part-time job.</li>
+                    <li>Promoted from Front-End Services TA (part-time) to PVA (full-time)</li>
                     <li>Assisted customers with financial services such as money orders, sending money, paying bills, etc, as well as checking out customer's items (cashier).</li>
-                    <li>Other jobs include: zoning, go-backs, top-stock.</li>
+                    <li>Managed vault contents (adding checks, deposit and withdrawal, etc.)</li>
                     <li>Monitored the self-checkout and checked receipts to prevent the loss of assets.</li>
                     <li>Assisted customers with items in the lockups.</li>
                 </ul>
