@@ -7,7 +7,10 @@ const Resume = () => {
         <div className="home-container">
             <div className="body">
                 <h1>Resume</h1>
-                <h2>If you prefer a shorter, downloadable version of my resume, click <a href="https://drive.filen.io/d/c69b8e4f-1c41-44d6-afa4-a0b6f2d1e8ff#Rl1cLquZiGfAG9zLxODcTUPE7MVbHxaZ" target="_blank" rel="noreferrer" className="links">here.</a></h2>
+                <h2>You will find a longer, more detailed version of my resume on this page. For a shorter, downloadable version of my resume,  please click on the following link:</h2>
+                <div className="links">
+                    <a href="https://drive.filen.io/d/c69b8e4f-1c41-44d6-afa4-a0b6f2d1e8ff#Rl1cLquZiGfAG9zLxODcTUPE7MVbHxaZ" target="_blank" rel="noreferrer" className="links">Download Resume</a>
+                </div>
             </div>
             
             <div className="body">
@@ -26,13 +29,17 @@ const Resume = () => {
                     <li>Awarded a C++ Certificate, and an OCC Computer Science Certificate of Achievement.</li>
                 </ul>
 
+                <div></div>
+                <hr width="100%" size="1" color="white"></hr>
+                <div></div>
+
                 <p className="body-text">University of California, San Diego</p>
                 <p className="body-text">Bachelor of Science, Mathematics - Computer Science</p>
                 <p className="body-text">September 2021 - June 2023</p>
                 <ul className="lists">
                     <li>3.345 GPA</li>
                     <li>Software Tools and Techniques Lab: Learned about how to use GitHub, and various different testing tools and techniques.</li>
-                    <li>Advanced Data Structures: Learned pretty much the same things as the Data Structures class from OCC but with a few additional things like compression algorithms.</li>
+                    <li>Advanced Data Structures: Same topics as the Data Structures class from OCC but with a few additional things like compression algorithms.</li>
                     <li>Design and Analysis of Algorithms: Learned about the sorting algorithms, greedy algorithms, dynamic programming, runtime complexity, and P/NP/NP-Complete/NP-Hard problems.</li>
                     <li>Theory of Computation: Learned about automatas (finite and infinite), regex, context-free languages, computability, determinism and nondeterminism, turing machines, decidability, etc.</li>
                     <li>Discrete Math and Graph Theory: Learned about graphs, traversing/search algorithms, postman/traveling salesman, flows and cuts, etc.</li>
@@ -54,6 +61,10 @@ const Resume = () => {
                     <li>Library/tools used: Arduino IDE, Servo, ESP8266, and other libraries.</li>
                 </ul>
 
+                <div></div>
+                <hr width="100%" size="1" color="white"></hr>
+                <div></div>
+
                 <p className="body-text">Walmart</p>
                 <p className="body-text">Price Verifier Associate (PVA)</p>
                 <p className="body-text">Stanton, California</p>
@@ -67,6 +78,10 @@ const Resume = () => {
                     <li>Verified and cleaned up the features to ensure more sales.</li>
                     <li>Recovered money for the store by looking for missing deliveries.</li>
                 </ul>
+
+                <div></div>
+                <hr width="100%" size="1" color="white"></hr>
+                <div></div>
 
                 <p className="body-text">RL Refurbished Inc.</p>
                 <p className="body-text">Technician</p>
@@ -100,6 +115,10 @@ const Resume = () => {
                     <li>Matlab</li>
                 </ul>
 
+                <div></div>
+                <hr width="100%" size="1" color="white"></hr>
+                <div></div>
+
                 <h3>Certificates:</h3>
                 <ul className="lists">
                     <li>C++ Certificate</li>
@@ -107,6 +126,10 @@ const Resume = () => {
                     <li>Completion of the NASA - California Space Grant Consortium Internship Certificate</li>
                     <li>CompTIA IT Fundamentals Certificate</li>
                 </ul>
+
+                <div></div>
+                <hr width="100%" size="1" color="white"></hr>
+                <div></div>
 
                 <h3>Software and tools (in no particular order):</h3>
                 <ul className="lists">
@@ -126,6 +149,10 @@ const Resume = () => {
                     <li>AutoHotKey Scripts</li>
                 </ul>
 
+                <div></div>
+                <hr width="100%" size="1" color="white"></hr>
+                <div></div>
+
                 <h3>Other skills:</h3>
                 <ul className="lists">
                     <li>Effective communicator</li>
@@ -133,6 +160,7 @@ const Resume = () => {
                     <li>Attention to detail</li>
                     <li>Organized</li>
                     <li>Time management</li>
+                    <li>Willingness to learn</li>
                 </ul>
             </div>
         </div>

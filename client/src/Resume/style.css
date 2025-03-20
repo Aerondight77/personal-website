@@ -37,6 +37,10 @@
     align-items: left;
 }
 
+h2 {
+  text-align: left;
+}
+
 @media (max-width: 600px) {
     .home-container {
       padding: 10px;
