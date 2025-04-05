@@ -18,7 +18,7 @@
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 20px;
     padding: 40px;
@@ -27,7 +27,7 @@
 
 .body-text {
     font-size: large;
-    text-align: left;
+    text-align: center;
 }
 
 .lists li{
@@ -38,7 +38,15 @@
 }
 
 h2 {
+  text-align: center;
+}
+
+h3 {
   text-align: left;
+}
+
+.lists, h2, h3 {
+  width: 100%;
 }
 
 @media (max-width: 600px) {

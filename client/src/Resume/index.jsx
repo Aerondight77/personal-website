@@ -59,6 +59,7 @@ const Resume = () => {
                     <li>Wrote the codes to operate the drone (they can be found in my GitHub under the RimorX-Drone repository).</li>
                     <li>Presented the project to professors from other colleges and to representatives from NASA. Aimed for the NASA Artemis project.</li>
                     <li>Library/tools used: Arduino IDE, Servo, ESP8266, and other libraries.</li>
+                    <li>More details are in the Projects page.</li>
                 </ul>
 
                 <div></div>
@@ -97,7 +98,8 @@ const Resume = () => {
 
             <div className="body">
                 <h2>Skills and Certificates</h2>
-                <h3>Languages (in no particular order):</h3>
+                <p className="body-text">The rest of my soft skills and hard skills will be listed here, including any other certifications. Note that the items will not be listed in any particular order.</p>
+                <h3>Coding Languages:</h3>
                 <ul className="lists">
                     <li>C++</li>
                     <li>C</li>
@@ -131,7 +133,7 @@ const Resume = () => {
                 <hr width="100%" size="1" color="white"></hr>
                 <div></div>
 
-                <h3>Software and tools (in no particular order):</h3>
+                <h3>Software and tools:</h3>
                 <ul className="lists">
                     <li>Visual Studio Code</li>
                     <li>Node.js</li>
@@ -161,6 +163,16 @@ const Resume = () => {
                     <li>Organized</li>
                     <li>Time management</li>
                     <li>Willingness to learn</li>
+                </ul>
+
+                <div></div>
+                <hr width="100%" size="1" color="white"></hr>
+                <div></div>
+
+                <h3>Spoken languages:</h3>
+                <ul className="lists">
+                    <li>English (Fluent)</li>
+                    <li>Cantonese (Intermediate)</li>
                 </ul>
             </div>
         </div>
