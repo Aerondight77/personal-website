@@ -22,7 +22,7 @@ const Home = () => {
             <div className="body">
                 <h1>About Me</h1>
                 <p className="body-text">Hello! My name is Bailey, I am 24 years old, and I graduated from the University of California, San Diego, with a <b>Bachelor's degree in Mathematics - Computer Science</b>. I am from Garden Grove in Orange County, California.
-                Some languages I know include: <b>C++, C, C#, Java, Python, JavaScript, HTML, CSS, and React</b> in no particular order. Some tools I know to use include: <b>VSCode, GitHub (& Git), Unity, and Arduino</b>.
+                Some languages I know include: <b>C++, C, C#, Java, Python, JavaScript, HTML, CSS, and React</b> in no particular order. Some tools I know to use include: <b>VSCode, GitHub (& Git), Google Collab, Jupyter Notebooks, Unity, and Arduino</b>.
                 I love computers and technology in general; smartphones, desktop PCs, laptops, cameras, or any smart devices, which is why I decided to learn about and pursue a career that is related to technology like <b>software development, cybersecurity, or IT</b>.
                 You can find more details of my professional life in the resume page above.</p>
                 <p className="body-text">As for my personal life, my hobbies include playing video games (both single player and multiplayer games), photography, watch movies, TV shows, anime, and occassionally read a manga, ride a bicycle, or build LEGO.

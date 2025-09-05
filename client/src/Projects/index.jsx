@@ -50,8 +50,7 @@ const Projects = () => {
                 <p className="body-text">The app's main purpose is as the name describes - it tracks the user's fitness. It helps the user track their weight, 
                 height, BMI, daily exercises like what workout they did and for how long, their sleep hours, what they eat, how much calories burned, as well as 
                 a to-do list, and amongst other fitness related things that the user can track. The app logs all of this information and stores it in a MySQL 
-                server (when we first wrote it, it stored data in a local MySQL server on my computer. Theoretically, it should store data in a remote SQL server).
-                Unlike the previous tracker app, this one includes a login component where the user has to create a username and password to access their data.</p>
+                server. Unlike the previous tracker app, this one includes a login component where the user has to create a username and password to access their data.</p>
                 <p className="body-text">When we first started on this project, we had no idea what to use to create an app. Initially, one member suggested we 
                 use Python to create a GUI and then figure out the tracking data later, but that never came into fruition because two other members don't know 
                 how to write Python yet. Since we all knew C++, we decided to use that instead, but none of us knew how to write an application using C++. We discovered 

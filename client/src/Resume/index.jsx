@@ -73,7 +73,7 @@ const Resume = () => {
                 <ul className="lists">
                     <li>Promoted from Front-End Services TA (part-time) to PVA (full-time)</li>
                     <li>Assisted customers with financial services such as money orders, sending money, paying bills, etc, as well as checking out customer's items (cashier).</li>
-                    <li>Managed vault contents (adding checks, deposit and withdrawal, etc.)</li>
+                    <li>Managed store vault contents (adding checks, deposit and withdrawal, etc.)</li>
                     <li>Assisted customers with lockup items.</li>
                     <li>Verified prices on the salesfloor to see if price changes were done correctly.</li>
                     <li>Verified and cleaned up the features to ensure more sales.</li>
@@ -148,7 +148,10 @@ const Resume = () => {
                     <li>PyCharm</li>
                     <li>RStudio</li>
                     <li>Jupyter Notebooks</li>
+                    <li>Google Collab</li>
                     <li>AutoHotKey Scripts</li>
+                    <li>Microsoft Office Suite</li>
+                    <li>Google Office Suite</li>
                 </ul>
 
                 <div></div>
