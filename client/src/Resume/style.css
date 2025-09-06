@@ -37,6 +37,10 @@
     align-items: left;
 }
 
+.yellow-heading {
+  color: #ffc400; /* Same yellow as boxes */
+}
+
 h2 {
   text-align: center;
 }

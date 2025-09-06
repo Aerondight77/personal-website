@@ -37,6 +37,14 @@
   align-items: left;
 }
 
+.yellow-heading {
+  color: #ffc400; /* Same yellow as boxes */
+}
+
+b {
+  color: #ffc400; /* Yellow color for all <b> tags */
+}
+
 @media (max-width: 600px) {
   .home-container {
     padding: 10px;

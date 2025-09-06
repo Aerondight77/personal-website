@@ -6,7 +6,7 @@ const Resume = () => {
     return (
         <div className="home-container">
             <div className="body">
-                <h1>Resume</h1>
+                <h1 className="yellow-heading">Resume</h1>
                 <h2>You will find a longer, more detailed version of my resume on this page. For a shorter, downloadable version of my resume,  please click on the following link:</h2>
                 <div className="links">
                     <a href="https://drive.filen.io/d/c69b8e4f-1c41-44d6-afa4-a0b6f2d1e8ff#Rl1cLquZiGfAG9zLxODcTUPE7MVbHxaZ" target="_blank" rel="noreferrer" className="links">Download Resume</a>
@@ -14,7 +14,7 @@ const Resume = () => {
             </div>
             
             <div className="body">
-                <h2>Education</h2>
+                <h2 className="yellow-heading">Education</h2>
                 <p className="body-text">Orange Coast Community College</p>
                 <p className="body-text">Certification, Computer Science</p>
                 <p className="body-text">June 2018 - May 2021</p>
@@ -49,7 +49,7 @@ const Resume = () => {
             </div>
 
             <div className="body">
-                <h2>Work Experience</h2>
+                <h2 className="yellow-heading">Work Experience</h2>
                 <p className="body-text">NASA - California Space Grant Consortium</p>
                 <p className="body-text">Intern</p>
                 <p className="body-text">Costa Mesa, California</p>
@@ -97,7 +97,7 @@ const Resume = () => {
             </div>
 
             <div className="body">
-                <h2>Skills and Certificates</h2>
+                <h2 className="yellow-heading">Skills and Certificates</h2>
                 <p className="body-text">The rest of my soft skills and hard skills will be listed here, including any other certifications. Note that the items will not be listed in any particular order.</p>
                 <h3>Coding Languages:</h3>
                 <ul className="lists">

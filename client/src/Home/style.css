@@ -27,12 +27,25 @@
 .body-text {
     font-size: large;
     text-align: left;
+    color:#c1d0e4;
 }
 
 .email-link {
     color:#7bf4ff;
     text-decoration: underline;
     text-align: left;
+}
+
+.yellow-heading {
+  color: #ffc400; /* Same yellow as boxes */
+}
+
+.large-name {
+  font-size: 50px;;
+}
+
+b {
+  color: #ffc400; /* Yellow color for all <b> tags */
 }
 
 .responsive-image {

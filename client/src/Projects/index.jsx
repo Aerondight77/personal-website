@@ -6,7 +6,7 @@ const Projects = () => {
     return (
         <div className="home-container">
             <div className="body">
-                <h1>Projects</h1>
+                <h1 className="yellow-heading">Projects</h1>
                 <h2>Here, I will explain my past projects that I've worked on. If you would like to see the source code for the projects, please click the link below.</h2>
                 <div className="links">
                     <a href="https://github.com/Aerondight77" target="_blank" rel="noreferrer" className="links">My GitHub</a>
@@ -14,8 +14,8 @@ const Projects = () => {
             </div>
 
             <div className="body">
-                <h1>Finance Buddy App Project</h1>
-                <p className="body-text">This project was made in ACM UC San Diego's Hackschool Workshop where we got introduced to full stack development.
+                <h1 className="yellow-heading">Finance Buddy App Project</h1>
+                <p className="body-text">This project was made in ACM UC San Diego's Hackschool Workshop where we got introduced to <b>full stack development</b>.
                 The app is a purchase tracker that is supposed to help users keep track of their purchases, where it tracks information such as:</p>
                 <ul className="lists">
                     <li>Name of product purchased.</li>
@@ -25,31 +25,31 @@ const Projects = () => {
                     <li>Location of the purchase (online or in person such as at Costco or Walmart).</li>
                     <li>Date of purchase.</li>
                 </ul>
-                <p className="body-text">We first started off learning about HTML and CSS, their syntaxes and what they do for a webpage. We then added in JavaScript to see how that
-                changes the site. At the start of building this particular app, we started learning about the Document Object Model (DOM), Node.js, as well as React and JSX. With that 
+                <p className="body-text">We first started off learning about <b>HTML</b> and <b>CSS</b>, their syntaxes and what they do for a webpage. We then added in JavaScript to see how that
+                changes the site. At the start of building this particular app, we started learning about the <b>Document Object Model (DOM)</b>, <b>Node.js</b>, as well as <b>React</b> and <b>JSX</b>. With that 
                 as our foundation, we proceeded to use what we learned to build the UI of the app, such as the navigation bar, the "boxes" that displays each purchase, as well as the 
                 overall look of the page such as the layout of every element and the font + colorings.</p>
-                <p className="body-text">After that, we learned about the backend, utilizing MongoDB as our server to store data. We initialized a MongoDB cluster, and then wrote the 
-                backend JavaScript code that connects to the cluster. This part is mainly for storing the purchase data when the "Add Purchase" form is filled out and the "Submit" button is 
+                <p className="body-text">After that, we learned about the backend, utilizing <b>MongoDB</b> as our server to store data. We initialized a MongoDB cluster, and then wrote the 
+                backend <b>JavaScript</b> code that connects to the cluster. This part is mainly for storing the purchase data when the "Add Purchase" form is filled out and the "Submit" button is 
                 clicked. We, of course, needed to display the purchases the user inputted, so the backend also retrieves data from the cluster to display it on the "View Purchases" 
                 page. Finally, we added code to neatly organize the displayed data pulled from the cluster.</p>
                 <p className="body-text">Overall, it was a fun project getting introduced to full stack development and knowing how to make a webpage look good while also make it 
                 functional. The app itself isn't very sophisticated, but it allowed me to learn a lot about what goes on under almost every webpage I've visited. In fact, this 
                 website I made for myself is based on this particular project, but instead of using the bright and colorful theme of the project, I wanted to make my page easier on the 
-                eyes especially when viewing in a dark setting, so I made this page mostly dark-themed. The tools used in this project includes: Visual Studio Code, Node.js, MongoDB, and React.</p>
+                eyes especially when viewing in a dark setting, so I made this page mostly dark-themed. The tools used in this project includes: <b>Visual Studio Code, Node.js, MongoDB, and React</b>.</p>
                 <div className="links">
                     <a href="https://github.com/Aerondight77/hackschool-fa22" target="_blank" rel="noreferrer" className="links">Link to the repository</a>
                 </div>
             </div>
 
             <div className="body">
-                <h1>Fitness Tracker App Project</h1>
+                <h1 className="yellow-heading">Fitness Tracker App Project</h1>
                 <p className="body-text">This project was made in Orange Coast College's Software Engineering class where we worked on a project while also 
                 learning about the different stages of software engineering and the different methods of software engineering. This app in particular was built 
-                using the Scrum method, was co-developed with two other people, and was written using C# & C.</p>
+                using the <b>Scrum method</b>, was co-developed with two other people, and was written using <b>C# & C</b>.</p>
                 <p className="body-text">The app's main purpose is as the name describes - it tracks the user's fitness. It helps the user track their weight, 
                 height, BMI, daily exercises like what workout they did and for how long, their sleep hours, what they eat, how much calories burned, as well as 
-                a to-do list, and amongst other fitness related things that the user can track. The app logs all of this information and stores it in a MySQL 
+                a to-do list, and amongst other fitness related things that the user can track. The app logs all of this information and stores it in a SQL 
                 server. Unlike the previous tracker app, this one includes a login component where the user has to create a username and password to access their data.</p>
                 <p className="body-text">When we first started on this project, we had no idea what to use to create an app. Initially, one member suggested we 
                 use Python to create a GUI and then figure out the tracking data later, but that never came into fruition because two other members don't know 
@@ -64,17 +64,17 @@ const Projects = () => {
                 a remote setting (this project was worked on during the start of the 2020 pandemic) made it so much harder and gave us nearly sleepless nights. 
                 On the bright side, it was a great learning experience about the development of software (their stages and what happens in each stage), and how tough 
                 it can be to be a software engineer. The project in the end came out great and we're proud of what we made. The tools used in this project includes: 
-                Visual Studio Community & Code, and SQL.</p>
+                <b>Visual Studio Community & Code, and SQL</b>.</p>
                 <div className="links">
                     <a href="https://github.com/Aerondight77/Fitness-Tracker-App" target="_blank" rel="noreferrer" className="links">Link to the repository</a>
                 </div>
             </div>
 
             <div className="body">
-                <h1>Sightlined Game Project</h1>
-                <p className="body-text">This project was created for a Game Jam hosted by Ben Bonk on 11/20/2020-11/23/2020. We basically have to create a game 
+                <h1 className="yellow-heading">Sightlined Game Project</h1>
+                <p className="body-text">This project was created for a <b>Game Jam hosted by Ben Bonk</b> on 11/20/2020-11/23/2020. We basically have to create a game 
                 within a certain time frame based on a given theme, and the given theme was "limited space" (we are free to interpret that however we like). 
-                The game was co-developed with two other people (different people from the Fitness App Project), and was made using Unity (C#).</p>
+                The game was co-developed with two other people (different people from the Fitness App Project), and was made using <b>Unity (C#)</b>.</p>
                 <p className="body-text">The game is basically a pixel 2D rogue-like survival game set in a dungeon setting with limited space and visibility. Every 
                 dungeon and its powerups are randomly generated but every room's layout is basically the same; it's small, has four stationary objects, two to four 
                 openings leading to other rooms, and maybe a powerup. The player controls a single character and the objective is to survive as long as they can 
@@ -91,8 +91,8 @@ const Projects = () => {
                 the world of game development which, at the time, I really wanted to explore since I am a gamer myself. Unfortunately, I didn't do a lot of the 
                 coding of the game, despite that, I learned a lot of how to develop and design a game; like the code to control a player or the conditions to end the 
                 game. It was a stressful learning experience because of the limited time frame, but I'm glad I got to experience game development and a Game Jam. 
-                If I remember correctly, we placed around 58th out of 100+ entries. The tools we used in this project includes: Unity, Visual Studio Community & Code, 
-                and Aseprite.</p>
+                If I remember correctly, we placed around 58th out of 100+ entries. The tools we used in this project includes: <b>Unity, Visual Studio Community & Code, 
+                and Aseprite</b>.</p>
                 <p className="body-text">Unfortunately, I am not the owner nor the keeper of the original code to the game, so I cannot access the code to show. The 
                 keeper didn't seem like he uploaded the code to a GitHub repository. Furthermore, the link to the game has stopped working as it seems the keeper 
                 disabled access to it. Either way, I'll put the link to the game in case access is granted again and the reader wants to speak to the keeper: </p>
@@ -102,10 +102,10 @@ const Projects = () => {
             </div>
 
             <div className="body">
-                <h1>RimorX Drone</h1>
-                <p className="body-text">This project was made during my internship at Orange Coast College in collaboration with NASA and the California Space Grant 
-                Consortium. It's basically code to control a ground drone operated by Arduinos. The project was worked on along with two other people (different people 
-                than the last two projects again), but only I wrote the codes, and was made using the Arduino IDE (C++). The whole idea of the project is basically to 
+                <h1 className="yellow-heading">RimorX Drone</h1>
+                <p className="body-text">This project was made during my <b>internship</b> at Orange Coast College in collaboration with <b>NASA</b> and the <b>California Space Grant 
+                Consortium</b>. It's basically code to control a ground drone operated by Arduinos. The project was worked on along with two other people (different people 
+                than the last two projects again), but only I wrote the codes, and was made using the <b>Arduino IDE (C++)</b>. The whole idea of the project is basically to 
                 design a drone for the NASA Artemis Lunar program to study the surface and tunnels of the moon. Apart from moving the drone, we need to come up with 
                 other parts of the drone that can conduct surveys and collect data to be "sent back to Earth". We came up with the drone having the capability to 
                 measure temperatures, humidity, gas, as well as monitor its location on the moon.</p>
@@ -148,7 +148,7 @@ const Projects = () => {
                 field I would go into in the future, and this internship and project was a great experience to help me with that. While it was fun, it was a little tedious, 
                 and we struggled a lot (due to one member slacking a bit), but I learned a lot about this field of work. I needed to know about electronics like how to 
                 wire and connect them, their respective libraries, how to use them, and what they can do, etc. Looking back at it, I kind of enjoyed it. The tools and libraries 
-                we used in this project includes: Arduino IDE, Servo, ESP8266, and other libraries.</p>
+                we used in this project includes: <b>Arduino IDE, Servo, ESP8266, and other libraries</b>.</p>
                 <div className="links">
                     <a href="https://github.com/Aerondight77/RimorX-Drone" target="_blank" rel="noreferrer" className="links">Link to the repository</a>
                     <a href="https://docs.google.com/presentation/d/14FcDx1KXU6YhirrmwbBWQynVlEAngIA-/edit?usp=sharing&ouid=116179635480038355972&rtpof=true&sd=true" target="_blank" rel="noreferrer" className="links">Slides of the project</a>
@@ -157,8 +157,8 @@ const Projects = () => {
             </div>
 
             <div className="body">
-                <h1>Lost Ark Queue App Concept</h1>
-                <p className="body-text">This project was my attempt to learn how to develop an Android App. Note that this app is only a concept, therefore it is an 
+                <h1 className="yellow-heading">Lost Ark Queue App Concept</h1>
+                <p className="body-text">This project was my attempt to learn how to develop an <b>Android App</b>. Note that this app is only a concept, therefore it is an 
                 incomplete app, but it already has the basic main features implemented. A more detailed description of this app and its purpose is written in the repository 
                 (I recommend reading it there instead of here), 
                 but in short, the concept is that it's basically an unofficial companion app the the South Korean video game "Lost Ark" developed by Smilegate RPG. 
@@ -174,7 +174,7 @@ const Projects = () => {
                 therefore, this app became obsolete. No point in further developing this app when the initial problem is already gone. Overall, as I mentioned above, 
                 this app was just my attempt to learn Android App development; the app itself is not that interesting or complex. I wanted to see if this was something I'd 
                 like to delve into in the future, but after attempting to develop this app, and getting a decent idea of Android App development, maybe it's not for me. 
-                The tools used in this project include: Android Studio (Java).</p>
+                The tools used in this project include: <b>Android Studio (Java)</b>.</p>
                 <div className="links">
                     <a href="https://github.com/Aerondight77/Lost-Ark-Queue-App-Concept" target="_blank" rel="noreferrer" className="links">Link to the repository</a>
                 </div>

@@ -3,7 +3,7 @@
     padding: 0;
     font-family: "DM Sans", sans-serif;
     text-decoration: none;
-    color: white;
+    color: #c1d0e4;
     text-align: center;
 }
 
@@ -12,10 +12,23 @@ body {
 }
 
 .links {
-    color:#7bf4ff;
+    color: #7bf4ff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-    text-decoration: underline;
+}
+
+.links a {
+    background-color: #ffc400; /* Yellow background */
+    color: #112240; /* Black text for better contrast */
+    padding: 10px 20px; /* Add padding for box appearance */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from link */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.links a:hover {
+    background-color: #ffae00; /* Slightly darker yellow on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
 }
