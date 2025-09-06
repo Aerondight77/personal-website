@@ -63,8 +63,8 @@ const Projects = () => {
                 demonstrate and display the project for our professor. We had to learn everything ourselves from scratch, plus the fact that we had to do all this in 
                 a remote setting (this project was worked on during the start of the 2020 pandemic) made it so much harder and gave us nearly sleepless nights. 
                 On the bright side, it was a great learning experience about the development of software (their stages and what happens in each stage), and how tough 
-                it can be to be a software engineer. The project in the end came out great and we're proud of what we made. The tools used in this project includes: 
-                <b>Visual Studio Community & Code, and SQL</b>.</p>
+                it can be to be a software engineer. The project in the end came out great and we're proud of what we made. The tools used in this project includes:
+                <b> Visual Studio Community & Code, and SQL</b>.</p>
                 <div className="links">
                     <a href="https://github.com/Aerondight77/Fitness-Tracker-App" target="_blank" rel="noreferrer" className="links">Link to the repository</a>
                 </div>
