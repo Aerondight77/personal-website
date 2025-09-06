@@ -2,14 +2,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 50px; /* Increased padding on left and right sides */
     gap: 10px;
     background: #112240;
 }
 
 .navlinks{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end; /* Align items to the right */
     align-items: center;
     gap: 40px;
+    margin-left: auto;
+    font-size: large;
+}
+
+.nav-name {
+    font-size: 25px; /* or whatever size you prefer */
+    font-weight: bold;
+    margin-right: 20px; /* adds some spacing from the nav links */
 }

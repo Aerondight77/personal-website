@@ -1,0 +1,49 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    min-height: 50vh;
+    padding: 20px;
+    gap: 5vh;
+    flex-direction: column;
+  }
+
+.body {
+    max-width: 900px;
+    height: auto;
+    background: #112240;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    object-fit: cover;
+}
+
+.body-text {
+    font-size: large;
+    text-align: left;
+    color:#c1d0e4;
+}
+
+.email-link {
+    color:#7bf4ff;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.yellow-heading {
+  color: #ffc400; /* Same yellow as boxes */
+}
+
+.large-name {
+  font-size: 50px;;
+}
+
+b {
+  color: #ffc400; /* Yellow color for all <b> tags */
+}

@@ -7,7 +7,7 @@ const Projects = () => {
         <div className="home-container">
             <div className="body">
                 <h1 className="yellow-heading">Projects</h1>
-                <h2>Here, I will explain my past projects that I've worked on. If you would like to see the source code for the projects, please click the link below.</h2>
+                <h2>Here, I will explain my past projects that I've worked on. If you would like to see the source code for each project, please click the link below.</h2>
                 <div className="links">
                     <a href="https://github.com/Aerondight77" target="_blank" rel="noreferrer" className="links">My GitHub</a>
                 </div>

@@ -8,25 +8,14 @@ const Home = () => {
         <div className="home-container">
             <div className="body">
                 <img style={{ width: 400, height: 300}} src={portrait} alt="" class="responsive-image"/>
-                <h1 className="large-name">Hello! I'm Bailey Ho</h1>
-                <h2 className="yellow-heading">Welcome to my website!</h2>
-                <p className="body-text">You can view my resume and explore projects that I've worked on here. To get started, please click on one of the pages on the navigation bar. To view external links:
+                <h1 className="large-name">Hello! I'm <b>Bailey Ho</b></h1>
+                <h2>Welcome to my website!</h2>
+                <p className="body-text">You can view my resume and explore projects that I've worked on here. To get started, please click on one of the pages on the navigation bar.
                 </p>
                 <div className="links">
                     <a href="https://github.com/Aerondight77" target="_blank" rel="noreferrer" className="links">GitHub</a>
                     <a href="https://linkedin.com/in/bailey-ho-22b8041bb/" target="_blank" rel="noreferrer" className="links">LinkedIn</a>
-                    <a href="https://github.com/Aerondight77/personal-website" target="_blank" rel="noreferrer" className="links">Website Source Code</a>
                 </div>
-            </div>
-
-            <div className="body">
-                <h1 className="yellow-heading">About Me</h1>
-                <p className="body-text">Hello! My name is Bailey, I am 25 years old, and I graduated from the <b>University of California, San Diego</b>, with a <b>Bachelor's degree in Mathematics - Computer Science</b>. I am from Garden Grove in Orange County, California.
-                I love computers and technology in general; smartphones, desktop PCs, laptops, cameras, or any smart devices, which is why I decided to learn about and pursue a career that is related to technology like <b>software development, cybersecurity, or IT</b>.
-                You can find more details of my professional life in the resume page above.</p>
-                <p className="body-text">As for my personal life, my hobbies include playing video games (both single player and multiplayer games), photography, watch movies, TV shows, anime, and occassionally read a manga, ride a bicycle, or build LEGO.
-                In addition to technology, I love cars, or really, anything with rubber wheels (motorcycles, bicycles, RC cars, and even airplanes since they have rubber wheels as well). My dream car is a Porsche 911 GT3 (either manual or auto).
-                </p>
             </div>
             
             <div className="body">
