@@ -14,6 +14,16 @@ const Projects = () => {
             </div>
 
             <div className="body">
+                <h1 className="yellow-heading">Cybersecurity Portfolio</h1>
+                <p className="body-text">The following link will take you to the GitHub repository that has the contents of my cybersecurity portfolio. The portfolio shows the projects I've worked on during the Google Cybersecurity Certificate Program.
+                This includes: performing a security audit, drafting a Python algorithm that updates a list of IP addresses, performing SQL queries, analyzing a vulnerable system, and more.
+                </p>
+                <div className="links">
+                    <a href="https://github.com/Aerondight77/baileys-cybersecurity-portfolio" target="_blank" rel="noreferrer" className="links">Link to the repository</a>
+                </div>
+            </div>
+
+            <div className="body">
                 <h1 className="yellow-heading">Finance Buddy App Project</h1>
                 <p className="body-text">This project was made in ACM UC San Diego's Hackschool Workshop where we got introduced to <b>full stack development</b>.
                 The app is a purchase tracker that is supposed to help users keep track of their purchases, where it tracks information such as:</p>
