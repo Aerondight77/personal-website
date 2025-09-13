@@ -3,11 +3,28 @@ import "./style.css";
 import "../App.css";
 
 const Resume = () => {
+    const skills = [
+        { name: "C++", level: 80 },
+        { name: "Python", level: 90 },
+        { name: "Java", level: 80 },
+        { name: "JavaScript", level: 60 },
+        { name: "SQL", level: 80 },
+        { name: "React", level: 55 },
+        { name: "Node.js", level: 55 },
+        { name: "HTML/CSS", level: 80 },
+        { name: "C", level: 40 },
+        { name: "C#", level: 50 },
+        { name: "Markdown", level: 90 },
+        { name: "Bash Scripts", level: 20 },
+        { name: "LaTeX", level: 55 },
+        { name: "R", level: 10 },
+        { name: "MatLab", level: 40 },
+    ];
     return (
         <div className="home-container">
             <div className="body">
                 <h1 className="yellow-heading">Resume</h1>
-                <h2>You will find a longer, more detailed version of my resume on this page. For a shorter, downloadable version of my resume,  please click on the following link:</h2>
+                <h2>This is a detailed version of my resume on this page. For a shorter, downloadable version of my resume,  please click on the following link:</h2>
                 <div className="links">
                     <a href="https://drive.filen.io/d/c69b8e4f-1c41-44d6-afa4-a0b6f2d1e8ff#Rl1cLquZiGfAG9zLxODcTUPE7MVbHxaZ" target="_blank" rel="noreferrer" className="links">Download Resume</a>
                 </div>
@@ -25,7 +42,7 @@ const Resume = () => {
                     <li>Computer Architecture: Learned about the assembly language, particularly MIPS, and their purpose/uses.</li>
                     <li>Boolean Algebra: Learned about gates, regular expressions, etc.</li>
                     <li>C++: Learned about the language's syntax, pointers, memory management, and linked lists.</li>
-                    <li>Java: Learned about the language's syntax and general concepts like functions, loops, inheritance, runtime complexity, etc.</li>
+                    <li>Java: Learned about the language's syntax and general concepts like functions, loops, inheritance, runtime complexity (Big-O), etc.</li>
                     <li>Awarded a C++ Certificate, and an OCC Computer Science Certificate of Achievement.</li>
                 </ul>
 
@@ -100,6 +117,7 @@ const Resume = () => {
                 <h2 className="yellow-heading">Skills and Certificates</h2>
                 <p className="body-text">The rest of my soft skills and hard skills will be listed here, including any other certifications. Note that the items will not be listed in any particular order.</p>
                 <h3>Coding Languages:</h3>
+                {/*
                 <ul className="lists">
                     <li>C++</li>
                     <li>C</li>
@@ -116,6 +134,24 @@ const Resume = () => {
                     <li>R</li>
                     <li>Matlab</li>
                 </ul>
+                */}
+
+                <div className="skills-section">
+                    {skills.map((skill, index) => (
+                        <div key={index} className="skill-item">
+                            <div className="skill-name">
+                                <span>{skill.name}</span>
+                                <span className="skill-percentage">{skill.level}%</span>
+                            </div>
+                            <div className="skill-bar-container">
+                                <div 
+                                    className="skill-bar" 
+                                    style={{ width: `${skill.level}%` }}
+                                ></div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
 
                 <div></div>
                 <hr width="100%" size="1" color="white"></hr>
@@ -124,8 +160,9 @@ const Resume = () => {
                 <h3>Certificates:</h3>
                 <ul className="lists">
                     <li>C++ Certificate</li>
+                    <li>Google Cybersecurity Professional Certificate</li>
                     <li>Orange Coast College Computer Science Certificate of Achievement</li>
-                    <li>Completion of the NASA - California Space Grant Consortium Internship Certificate</li>
+                    <li>Completion of the NASA - CaSGC Internship Certificate</li>
                     <li>CompTIA IT Fundamentals Certificate</li>
                 </ul>
 

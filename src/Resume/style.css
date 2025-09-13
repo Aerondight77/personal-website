@@ -66,3 +66,43 @@ h3 {
       max-width: 100%;
     }
   }
+
+.skills-section {
+    width: 100%; /* Make sure skills section takes full width */
+    padding: 0;
+}
+
+.skill-item {
+    width: 100%; /* Ensure each skill item spans full width */
+    margin-bottom: 20px;
+}
+
+.skill-name {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.skill-bar-container {
+  width: 100%; /* Full width of parent container */
+  height: 20px;
+  background-color: #112240;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.skill-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #ffd700, #ff9800);
+  border-radius: 10px;
+  transition: width 1s ease-in-out;
+}
+
+.skill-percentage {
+  font-size: 14px;
+  color: #ffd700;
+  margin-top: 5px;
+}
