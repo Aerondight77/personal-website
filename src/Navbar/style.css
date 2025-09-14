@@ -2,22 +2,58 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px; /* Increased padding on left and right sides */
+    padding: 20px 50px;
     gap: 10px;
     background: #112240;
+    flex-wrap: wrap; /* Allow wrapping on small screens */
 }
 
 .navlinks{
     display: flex;
-    justify-content: flex-end; /* Align items to the right */
+    justify-content: flex-end;
     align-items: center;
-    gap: 40px;
+    gap: 20px; /* Reduced gap for better mobile fit */
     margin-left: auto;
     font-size: large;
+    flex-wrap: wrap; /* Allow wrapping */
 }
 
 .nav-name {
-    font-size: 25px; /* or whatever size you prefer */
+    font-size: 25px;
     font-weight: bold;
-    margin-right: 20px; /* adds some spacing from the nav links */
+    margin-right: 20px;
+    white-space: nowrap; /* Prevent name from wrapping */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 15px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .navlinks {
+        width: 100%;
+        justify-content: flex-start;
+        gap: 15px;
+        margin-left: 0;
+    }
+    
+    .nav-name {
+        font-size: 20px;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 10px 15px;
+    }
+    
+    .navlinks {
+        gap: 10px;
+        font-size: medium;
+    }
 }
